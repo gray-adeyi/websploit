@@ -2739,7 +2739,7 @@ input[type="button"].btn-block {
   bottom: 0;
   padding-left: 280px;
   width: 100%;
-  
+
 }
 .page-container:before,
 .page-container:after {
@@ -8872,14 +8872,14 @@ body.page-fade-only-init > .page-container {
   }
 }
 .boxed-layout {
-  background: url(../images/boxed-pattern-3.png);
+  background: url(../img/boxed-pattern-3.png);
   padding-bottom: 0px;
 }
 .boxed-layout.page-fade,
 .boxed-layout.page-fade-only,
 .boxed-layout.page-left-in,
 .boxed-layout.page-right-in {
-  background: url(../images/boxed-pattern-3.png);
+  background: url(../img/boxed-pattern-3.png);
 }
 .boxed-layout .page-container {
   position: relative;

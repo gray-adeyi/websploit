@@ -3782,8 +3782,6 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6789,8 +6787,6 @@ a.list-group-item.active:focus .list-group-item-text {
   transform: rotate(180deg);
 }
 .panel .blockUI.blockOverlay {
-  background-image: url(../images/loader-1.gif);
-  background-image: url(../images/loader-2.gif);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -7108,7 +7104,7 @@ a.list-group-item.active:focus .list-group-item-text {
   margin-right: 0;
 }
 lesshat-selector {
-  -lh-property: 0; } 
+  -lh-property: 0; }
 @-webkit-keyframes reloadingAnimation{ 0%{ -webkit-transform: rotate(0deg); } 100%{ -webkit-transform: rotate(360deg); }}
 @-moz-keyframes reloadingAnimation{ 0%{ -moz-transform: rotate(0deg); } 100%{ -moz-transform: rotate(360deg); }}
 @-o-keyframes reloadingAnimation{ 0%{ -o-transform: rotate(0deg); } 100%{ -o-transform: rotate(360deg); }}

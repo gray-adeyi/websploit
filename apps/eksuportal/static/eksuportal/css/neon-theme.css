@@ -802,7 +802,7 @@ th {
   margin: 5px;
 }
 .nofloat{
-  
+
   display: list-item;
 }
 .table {
@@ -5329,7 +5329,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 .notes-env .notes-list .write-pad textarea {
   background: transparent;
   border: none;
-  background: url(../images/notes-lines.png) left top;
   background-attachment: local;
   min-height: 780px;
   font: 14px/52px "Noto Sans", sans-serif, serif;
