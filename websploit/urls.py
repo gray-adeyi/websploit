@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.eksuportal.urls')),
     path('', include('apps.facebook.urls')),
+    path('', include('apps.gmail.urls')),
 ]

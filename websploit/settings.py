@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'apps.eksuportal',
     'apps.facebook',
+    'apps.gmail',
 ]
 
 MIDDLEWARE = [

